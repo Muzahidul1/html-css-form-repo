@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <form>
+            <label class="block" for="name">
+                Name
+                <br>
+                <input type="text" name="name" id="name">
+            </label>
+            <label class="block" for="password">
+                Password
+                <br>
+                <input type="password" name="password" id="password">
+            </label>
+            <label class="block" for="email">
+                Email
+                <br>
+                <input type="email" name="email" id="email">
+            </label>
+            <label class="block" for="num">
+                Number
+                <br>
+                <input type="number" name="num" id="num">
+            </label>
+            <div>
+                <p>
+                    Checkbox
+                </p>
+                <div class="box">
+                <label for="mango">
+                    Mango
+                    <input type="checkbox" name="mango" id="mango">
+                </label>
+                <label for="apple">
+                    Apple
+                    <input type="checkbox" name="" id="">
+                </label>
+                <label for="orange">
+                    Orange 
+                    <input type="checkbox" name="" id="">
+                </label>
+                </div>
+            </div>
+            <div>
+                <p>
+                    Gender
+                </p>
+                <div class="box">
+                <label for="gender">
+                    Male
+                    <input type="radio" name="gender" id="">
+                </label>
+                <label for="gender">
+                    Female
+                    <input type="radio" name="gender">
+                </label>
+                </div>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </main>
 </body>
 </html>
